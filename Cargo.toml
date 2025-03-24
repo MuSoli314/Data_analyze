@@ -1,0 +1,8 @@
+[package]
+name = "Data_analyze"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "*", features = ["lazy"]}
+chrono = { version = "0.4.40"}
