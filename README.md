@@ -7,13 +7,13 @@
 
 | **Rust库**         | **Python库** | **功能**                                                                 | **官方文档/资源链接**                                                                 |
 |------------------|------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| **Polars**       | `pandas`         | 高性能 DataFrame 库（类似 Pandas），用于数据处理、时间序列分析                | [Polars 官方文档](https://pola-rs.github.io/polars-book/user-guide/)                |
+| **ndarray**      | `numpy`          | 多维数组计算库，支持矩阵运算和数学操作                          | [ndarray 文档](https://docs.rs/ndarray/latest/ndarray/)                            |
+| **Polars**       | `pandas`         | 高性能 DataFrame 库，用于数据处理、时间序列分析                | [Polars 官方文档](https://pola-rs.github.io/polars-book/user-guide/)                |
 | **ta-rs**        | `TA-Lib`         | 技术分析指标库（MACD、RSI、布林带等）                                       | [ta-rs GitHub](https://github.com/soulmachine/ta-rs)                                |
-| **ndarray**      | `numpy`          | 多维数组计算库（类似 NumPy），支持矩阵运算和数学操作                          | [ndarray 文档](https://docs.rs/ndarray/latest/ndarray/)                            |
 | **Backtest-rs**  | `Backtrader`     | 轻量级回测框架，支持多资产策略测试                                           | [Backtest-rs GitHub](https://github.com/psymbio/backtest-rs)                       |
 | **CCXT-RS**      | `CCXT`           | 加密货币交易所统一 API 封装（支持 Binance、Coinbase 等）                     | [CCXT-RS GitHub](https://github.com/ccxt-rust/ccxt-rs)                             |
 | **Taqos**        | `Zipline`        | 事件驱动的回测引擎，适合高频交易策略                                          | [Taqos GitHub](https://github.com/taqos/taqos)                                     |
-| **Linfa**        | `scikit-learn`   | 机器学习库（类似 scikit-learn），支持回归、分类等传统算法                      | [Linfa GitHub](https://github.com/rust-ml/linfa)                                   |
+| **Linfa**        | `scikit-learn`   | 机器学习库，支持回归、分类等传统算法                      | [Linfa GitHub](https://github.com/rust-ml/linfa)                                   |
 | **tch-rs**       | `PyTorch`        | PyTorch 的 Rust 绑定，用于深度学习策略开发                                   | [tch-rs GitHub](https://github.com/LaurentMazare/tch-rs)                           |
 | **Plotters**     | `matplotlib`     | 数据可视化库（绘制K线图、收益曲线等）                                        | [Plotters GitHub](https://github.com/38/plotters-rs)                               |
 | **Candle**       | `PyTorch`        | 轻量级深度学习框架，适合量化场景                                             | [Candle GitHub](https://github.com/huggingface/candle)                             |
