@@ -3,7 +3,7 @@ use polars::prelude::*;
 use std::fs::File;
 
 #[test]
-fn polars_test() -> Result<()> {
+fn polars_test() {
     let mut df: DataFrame = df!(
         "name" => ["Alice Archer", "Ben Brown", "Chloe Cooper", "Daniel Donovan"],
         "birthdate" => [
@@ -19,17 +19,19 @@ fn polars_test() -> Result<()> {
     println!("{}", df);
 
 
-    let mut file = File::create("./data/output.csv").expect("could not create file");
+    let mut file = File::create("src/data/output.csv").expect("could not create file");
     CsvWriter::new(&mut file)
         .include_header(true)
         .with_separator(b',')
-        .finish(&mut df)?;
+        .finish(&mut df)
+        .unwrap();
     let df_csv = CsvReadOptions::default()
         .with_has_header(true)
         .with_parse_options(CsvParseOptions::default().with_try_parse_dates(true))
-        .try_into_reader_with_file_path(Some("./data/output.csv".into()))?
-        .finish()?;
+        .try_into_reader_with_file_path(Some("src/data/output.csv".into()))
+        .unwrap()
+        .finish()
+        .unwrap();
     println!("{}", df_csv);
-}
 
-fn 
+}
