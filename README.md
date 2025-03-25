@@ -16,9 +16,9 @@
 | **Linfa**        | `scikit-learn`   | 机器学习库（类似 scikit-learn），支持回归、分类等传统算法                      | [Linfa GitHub](https://github.com/rust-ml/linfa)                                   |
 | **tch-rs**       | `PyTorch`        | PyTorch 的 Rust 绑定，用于深度学习策略开发                                   | [tch-rs GitHub](https://github.com/LaurentMazare/tch-rs)                           |
 | **Plotters**     | `matplotlib`     | 数据可视化库（绘制K线图、收益曲线等）                                        | [Plotters GitHub](https://github.com/38/plotters-rs)                               |
+| **Candle**       | `PyTorch`        | 轻量级深度学习框架，适合量化场景                                             | [Candle GitHub](https://github.com/huggingface/candle)                             |
 | **Tokio**        | `asyncio`        | 异步运行时库，用于构建低延迟交易系统和实时数据流处理                           | [Tokio 官方文档](https://tokio.rs/)                                                |
 | **Tungstenite**  | `websockets`     | WebSocket 客户端库，用于接收交易所实时行情数据                               | [Tungstenite GitHub](https://github.com/snapview/tungstenite-rs)                   |
-| **Candle**       | `PyTorch`        | 轻量级深度学习框架，适合量化场景                                             | [Candle GitHub](https://github.com/huggingface/candle)                             |
 | **Statrs**       | `scipy.stats`    | 统计计算库（概率分布、假设检验等）                                           | [Statrs GitHub](https://github.com/boxtown/statrs)                                 |
 | **Petgraph**     | `networkx`       | 图论分析库（用于投资组合优化、网络分析等）                                    | [Petgraph 文档](https://docs.rs/petgraph/latest/petgraph/)                         |
 
